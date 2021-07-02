@@ -39,12 +39,12 @@ export default class RequestIndex extends Component {
     }
 
     render() {
-        //Create Campaig
+        //Create Campaige
         const { Header, Row, HeaderCell, Body } = Table;
         const campaignsBalance = this.props.contractBalance;
 
         return (
-            <div style={{height: "100vh", backgroundColor: "#1F2739"}}>
+            <div style={{height: "101vh", backgroundColor: "#1F2739"}}>
                 <Layout>
                     <h3 style = {{color: "gold"}}>Request</h3>
                     <Grid columns='equal'>
