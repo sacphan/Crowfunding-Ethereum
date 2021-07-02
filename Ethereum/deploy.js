@@ -13,9 +13,9 @@ require('dotenv').config();
 const provider = new HDWalletProvider(
     {
         mnemonic: {
-            phrase: 'dance time give venue duty kitchen explain what setup thrive pet pool' 
+            phrase: 'unveil sad enter business wasp render angry chapter fiscal invest august wrestle' 
         },
-        providerOrUrl: 'https://rinkeby.infura.io/v3/0f18d1770bfb441992b835ceabd6ab7f'
+        providerOrUrl: 'https://rinkeby.infura.io/v3/2dca6a7de34d4755b66cda7d255ed1a8'
     }   
 );
 // const provider = new HDWalletProvider(

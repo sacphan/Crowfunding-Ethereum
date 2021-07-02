@@ -10,7 +10,7 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
     // we are on the server *OR* meta mask is not running
     // creating our own provider
     const provider = new Web3.providers.HttpProvider(
-        'https://rinkeby.infura.io/v3/0f18d1770bfb441992b835ceabd6ab7f'
+        'https://rinkeby.infura.io/v3/2dca6a7de34d4755b66cda7d255ed1a8'
     );
 
     web3 = new Web3(provider);
