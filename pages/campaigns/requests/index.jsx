@@ -39,7 +39,7 @@ export default class RequestIndex extends Component {
     }
 
     render() {
-
+        //Create Campaig
         const { Header, Row, HeaderCell, Body } = Table;
         const campaignsBalance = this.props.contractBalance;
 
